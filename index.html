@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<style>
+		html{font-family: 'Noto Sans KR', sans-serif;}
+		body, nav, ul, h1, h4, h2, h3, p, section {margin:0; padding: 0;}
+		ul{display: block; background: black; height: 50px; text-decoration: none; color: white; padding-left: 300px;}
+		nav{background: black; color:white; font-size:1em; font-weight: 400; text-align: left; display: inline-block; height: 30px; width:100px; margin: auto; padding-top:10px; text-decoration: none;}
+		a:hover{background:none; color:white; display:block; font-weight: 700; transition: all 0.2s; text-decoration: none; margin: auto;}
+		a{background:none; color:white; display:inline-block; font-weight: 400; text-decoration: none; margin: auto;}
+		h4{color: white; font-size: 3em; display: inline-block; font-weight: 900; padding-left: 300px; padding-top: 290px; margin: none;}
+		h1{font-size: 1.5em; text-align: center; line-height: 1.9;}
+		h2{font-size: 1.5em; text-aline: inline-block; font-weight: 700; width: 300px; padding-top: 280px; padding-left: 300px; line-height: 1.3;}
+		h3{font-size: 1.5em; text-aline: inline-block; font-weight: 700; width: 300px; padding-top: 100px; padding-left: 1000px; line-height: 1.3; background-color: black;}
+		h5{font-size: 1.5em; text-align: center; line-height: 1.9; padding-top: 10px;}
+		h6{font-size: 1.5em; text-align: center; line-height: 1.9; padding-top: 400px;}
+		p{font-size: 1em; font-weight: 300; padding-top:0px;}
+		section, footer{height: 900px; text-alin: center; font-weight: 400px; }
+		.bg-black{background-color: black;}
+		.bg-blue{background-color: blue;}
+		.bg-white{background-color: white;}
+		.text-white{color: white;}
+		.col-1{height:900px; margin:0px 0px; background-color:none;}
+		.col-2{height:100px; margin:0px 0px; background-color:none;}
+		.col-3{height:200px; margin:0px 0px; padding-top: 100px;}
+		.col-4{height:500px; width:600px; margin:0px 0px; background-color:white; padding-left: 290px; padding-top: 30px; line-height: 1.9;}
+		.col-5{height:300px; width:600px; margin:0px 0px; background-color:black; margin-left: 1000px; padding-top: 30px; line-height: 1.9; display: inline-block; text-align: left;}
+		.col-6{height: 40px; width:1000px; background-color:black; padding-left: 300px; margin-top:10px; margin-left: 300px;}
+		.col-7{height: 20px; width:500px; background-color:black; padding-left: 300px; margin-top: 10px; margin-left: 600px;}
+		.col-8{height: 12px; width:250px; background-color:black; padding-left: 300px; margin-top: 8px; margin-left: 725px;}
+		.col-9{height: 500px; width:500px; background-color:blue; padding-left: 300px; margin-top: 500px; margin-left: 725px;}
+		.col-10{height:205px; width:1000px; margin:0px 0px; background-color:blue;    padding-top: 10px;}
+		.col-11{height:500px; margin:0px 0px;}
+		.col-12{height:1000px; width:1000px; margin:0px 0px;}
+		.col-13{height:350px; width:1000px; margin:0px 0px;}
+		.col-14{height:150px; margin:0px 0px; text-align: inline-block; padding-left: 850px;}
+		.bg-header{background: url('home1.png');
+			background-color: none;
+			background-opacity: 100%; 
+			margin:auto;
+			background-position-y: 0px;
+			background-position-x: 100px;
+			background-size: 100% auto;}
+		.bg-header2{background: url('pic5.jpg');
+			background-color: none;
+			background-opacity: 100%; 
+			margin:auto;
+			background-position-y: 0px;
+			background-position-x: 300px;
+			background-size: 100% auto;}
+		.bg-header3{background: url('black.jpg');
+			background-color: black;
+			background-opacity: 100%; 
+			background-position-y: 0px;
+			background-position-x: 0px;
+			background-size: 100% auto;}
+		.bg-header4{background: url('pic3.png');
+			background-color: white;
+			width: 1903px;
+			height:800px;
+			background-opacity: 100%; 
+			background-position-y: 0px;
+			background-position-x: -290px;
+			background-size:128% auto;}
+		.bg-header5{background: url('img3.png');
+			background-color: black;
+			background-opacity: 100%;
+			background-position-y: 0px;
+			background-position-x: -55px;
+			background-size: 110% 110%;}
+		.bg-header6{background: url('sign.png');
+			background-opacity: 100%; 
+			background-position-y: 0px;
+			background-position-x: 800px;
+			background-size: 100% 100%;}
+		.bg-header7{background: url('bus.png');
+			background-color: white;
+			background-opacity: 100%; 
+			background-position-y: -750px;
+			background-position-x: 320px;
+			background-size: 103% 220%;}
+		.bg-header8{background: url('어쩌구.png');
+			background-color: white;
+			background-opacity: 100%; 
+			background-position-y: 0px;
+			background-position-x: 0px;
+			background-size: 100% auto;}
+		.bg-header9{background: url('img5.jpg');
+			background-color: black;
+			background-opacity: 100%; 
+			background-position-y: 0px;
+			background-position-x: 0px;
+			background-size: 100% auto;}
+		.bg-header10{background: url('angel1.png');
+			background-color: black;
+			background-opacity: 100%; 
+			background-position-y: 0px;
+			background-position-x: 0px;
+			background-size: 100% auto;}
+		.bg-header11{background: url('dolomite.png');
+			background-color: black;
+			background-opacity: 100%; 
+			background-position-y: 0px;
+			background-position-x: -1000px;
+			background-size: 210% 110%;}
+	</style>
+	<title>
+		집나가면 고생이라더라
+	</title>
+</head>
+
+<body>
+	<ul>
+	<nav><a href="#home">home</a></nav>
+	<nav><a href="#1">하나</a></nav>
+	<nav><a href="#2">둘</a></nav>
+	<nav><a href="#3">셋</a></nav>
+	<nav><a href="#4">넷</a></nav>
+	<nav><a href="#5">다섯</a></nav>
+	<nav><a href="#6">여섯</a></nav>
+	</ul>
+
+	<section>
+		<div class="bg-black" id="home">
+			<div class="col-1 bg-black bg-header">
+				<div class="col-2 bg-black">
+			<h4>집나가면 고생이라더라</h4>
+		</div>
+	</section>
+
+		<h1>
+			<div class="bg-black">
+				<div class="col-3">
+				<div class="text-white">
+		2022년 7월,<br>나는 이탈리아의 도로가에 버려졌다.
+	    </h1>
+
+	    <div class="col-6 bg-header3"></div>
+	    <div class="col-7 bg-header3"></div>
+	    <div class="col-8 bg-header3"></div>
+
+	<section div class="bg-header4" id="1">
+		<h2>하나,<br> 우리 왜 이렇게 된거지?</h2>
+			<p div class="col-4"> 이야기는 영국에 사는 이모로부터 날아온 카톡에서 시작된다."휴학 끝나기 전에 한 번 동생이랑 놀러올래?" 그 땐 딱히 하는 것도 없었고 심심했던 때라 이모의 제안이 반가웠다. 앞으로의 고생길은 알지 못하고...</p></div>
+	</section>
+	
+
+	<section class="bg-black" id="2">
+		<h3 div class="text-white">둘,<br>역주행 때문이다</h3>
+			<div class="col-10 bg-header5">
+				<p div class="col-5 text-white">인천 공항에서 출국 후 우리는 일주일간 영국에 머물며 여행 준비를 했고 채비를 마친 동생과 나는 두번째 여행지인 이탈리아로 향했다. 로마, 포지타노, 베네치아, 밀라노를 거쳐 우리는 이탈리아에서의 마지막 여행지인 돌로미티로 향하는 여정을 시작했다. 숙소 앞의 마을 버스를 타고 기차역으로, 기차역에서 다른 버스로 갈아탄 후 한참을 달려서야 우리들은 돌로미티 인근의 마을로 들어가는 버스를 탈 수 있었다.그렇게 순조롭게 여행이 시작되는 줄 알았으나,</p></div>
+				<div class="col-2"></div>
+				<h5 div class="text-white">
+				"어? 방향이 왜 이렇지?"</h5>
+				<h5 div class="text-white">"왜?"</h5>
+				<h5 div class="text-white">"우리 반대 방향으로 가고 있는데?"</h5>
+	</section>
+
+	<div class="col-11 bg-header9"></div>
+
+	<section class="bg-header6" id="3">
+		<h2>셋,<br>제발 멈춰요</h2>
+			<p div class="col-4">창 밖은 이탈리아의 아름다운 산 속이었지만, 우리는 스마트폰의 길 안내 앱을 보고 있을 수 밖에 없었다. 버스는 그 길로 20분을 더 달려서야 멈췄고, 내렸을 땐 말 그대로 산 한복판 이었다.
+			불행중 다행으로 버스 표지판이 존재했지만 문제는 버스가 1시간마다 온다는 것이었다. 일전의 여행에서 오기로 예정된 버스가 오지 않는 일을 여러번 겪은 적이 있었기 때문에 표지판을 보고도 우리는 여전히 패닉 상태에 빠져있었다.</p>
+	</section>
+	<section class="bg-black" id="4">
+		<h3 div class="text-white">넷,<br>구원자가 나타났다.</h3>
+		<div class="col-12 bg-header10">
+		<p div class="col-5 text-white">그 때 멀리서 할머니 한 분이 천천히 우리가 있는 쪽으로 걸어오셨다. 이곳은 이탈리아고, 관광지가 아니라 영어가 통하지 않을 가능성이 높음에도 우리는 혹시나 하는 희망에 기대어 용기를 냈다.
+			다행히 그분은 우리에게 버스에 대한 이런 저런 정보들을 자세히 설명해주셨고, 그제서야 우리는 천천히 주변의 풍경을 둘러볼 수 있었다.</p></div>
+	</section>
+
+	<section class="bg-white bg-header7" id="5">
+		<h2>다섯,<br>뛰어요!</h2>
+		<p div class="col-4">몇 분 후, 멀리서 큰 버스 한 대가 나타났다. 버스는 우리를 지나치는가 싶더니 표지판에서 조금 떨어진 곳에 정차했고, 우리는 당황했지만 뛰어가면 되니까 문제가 될 건 없다고 생각했다. 하지만 한가지. 우리와 함께 버스를 기다리시던 분은 시각장애를 가지신 분이셨고 버스가 원래 멈춰야 하는 곳에서 멀리 떨어진 곳에 멈췄다는 걸 모르고 계셨다...</p>
+	</section>
+	<section div class="bg-black">
+	<h6 div class="text-white">그래서, 우리는 그분의 손을 잡고 버스를 향해 뛰어갔다.</h6>
+	</section>
+
+	<section class="bg-black" id="6">
+		<h3 div class="text-white">여섯,<br>이러고도 겨우 아침 8시?</h3>
+		<div class="col-13 bg-header11">
+		<p div class="col-5 text-white"> 무사히 좌석에 앉아 핸드폰을 켜보니 하루가 이미 다 간 것 같은 일을 겪고도 겨우 아침 8시였다. 그 분 덕분에 우리는 무사히 목적지에 도착 할 수 있었고, 이 날은 낯설고 때로는 무섭기도 했던 여행지에서 받았던 여러가지 선의와 도움들 중 가장 기억에 남는 일이 되었다.</p></div>
+		<a class="col-14" href="#home">
+			<div class="co1-14">back home, sweet home </a></div>
+	</section>
+</body>
+</html>
